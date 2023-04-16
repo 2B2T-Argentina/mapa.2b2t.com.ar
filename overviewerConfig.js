@@ -5,10 +5,6 @@ var overviewerConfig = {
             "defaultMarker": "signpost.png",
             "signMarker": "signpost_icon.png",
             "bedMarker": "bed.png",
-            "spawnMarker": "markers/marker_home.png",
-            "spawnMarker2x": "markers/marker_home_2x.png",
-            "queryMarker": "markers/marker_location.png",
-            "queryMarker2x": "markers/marker_location_2x.png",
             "compass": {
                 "0": "compass_upper-left.png",
                 "1": "compass_upper-right.png",
@@ -23,11 +19,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world"
+        "world",
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1681302975",
+        "cacheTag": "1681673832",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,30 +37,30 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overviewer Render (lighting)",
-            "zoomLevels": 7,
+            "name": "Spawn Render (lighting)",
+            "zoomLevels": 8,
             "defaultZoom": 1,
-            "maxZoom": 7,
+            "maxZoom": 8,
             "path": "world-lighting",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "world",
-            "last_rendertime": 1681302657,
+            "last_rendertime": 1681672865,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
-                -143,
+                467,
                 320,
-                120
+                516
             ],
             "lastrenderversion": 2,
             "minZoom": 0,
             "spawn": [
-                -143,
+                0,
                 320,
-                120
+                0
             ],
             "north_direction": 0
         }
